@@ -34,7 +34,7 @@ export default function Page() {
       <section
   id="home"
   className="relative min-h-screen flex flex-col lg:flex-row items-center justify-center gap-12 px-6 py-20 bg-cover bg-center text-white"
-  style={{ backgroundImage: "url('/bgpp.jpg')" }}
+  style={{ backgroundImage: "url('/bgp.jpg')" }}
 >
 <div className="absolute inset-0 bg-black/60 z-0"></div>
 <div className="relative z-10 text-center lg:text-left">
