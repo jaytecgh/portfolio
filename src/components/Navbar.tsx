@@ -1,11 +1,20 @@
 // src/components/Navbar.tsx
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <nav className="bg-white text-[#020080] py-4 fixed w-full shadow-lg top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Justice Amoah</h1>
+      <Link href="#home" className="flex items-center space-x-2">
+          <Image 
+            src="/jaytec.jpg" 
+            alt="JayTec GH" 
+            width={40} 
+            height={40} 
+            className="rounded-full" 
+          />
+        </Link>
         <ul className="flex space-x-8 text-[#020080]">
           <li>
             <Link href="#home" className="hover:text-yellow-500 transition">Home</Link>
